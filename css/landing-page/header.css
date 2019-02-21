@@ -1,0 +1,60 @@
+header {
+  margin: 0px 20px;
+  padding-top: 35px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 50px; 
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header a {
+  color: #1061a8;
+  text-decoration: none;
+}
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+}
+header .logo img {
+  width: 40px;
+}
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 15px;
+}
+header .menu a {
+  text-transform: uppercase;
+  margin: 0 10px; 0 0;
+}
+header .header-buttons {
+  display: inline-block;
+  float: right;
+}
+header .header-buttons .red-btn .fas {
+  margin-left: 10px;
+}
+header .header-buttons .red-btn {
+  background: #1061a8;
+  color: aliceblue;
+  padding: 14px 45px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+
+header .header-buttons .blue-btn {
+  background: #66cd00;
+  color: aliceblue;
+  padding: 14px 45px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
