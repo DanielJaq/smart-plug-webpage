@@ -1,3 +1,7 @@
+.container-fluid{
+  
+}
+
 header {
   margin: 0px 20px;
   padding-top: 35px;
@@ -57,4 +61,15 @@ header .header-buttons .blue-btn {
   text-transform: uppercase;
   position: relative;
   top: 20px;
+}
+@media only screen and (max-width: 1215px) {
+  
+}
+/* TABLET DEVICES */
+@media only screen and (max-width: 1023px) {
+  
+}
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+ 
 }
