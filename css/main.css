@@ -202,6 +202,7 @@
   margin-bottom: 3.5rem;
   z-index: 2;
   position: relative;
+  line-height: 1.5;
 }
 #design-by .design-container .info-section .info-list li {
   list-style: none;
@@ -745,16 +746,252 @@ footer .social-media .icons a{
 }
 /* LAPTOPS DEVICES */
 @media only screen and (max-width: 1215px) {
-  
+  #top-jumbo .right-side img {
+    width: 550px; 
+    margin-top: 50px;
+  }
 }
 /* TABLET DEVICES */
 @media only screen and (max-width: 1023px) {
-  
+  #top-jumbo .left-side {
+    width: 40%;
+    margin-bottom: -40px; 
+  } 
+  #top-jumbo .left-side .large-letters {
+    font-size: 220px;
+  }
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 40px;
+  }
+  #top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+  }
+  #top-jumbo .left-side .info-container .email-area .far {
+    float: left;
+    margin-top: 9px;
+    position: relative;
+    margin-left: 0;
+    text-align: center;
+  }
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 60%;
+    float: left;
+    position: relative;
+    margin-top: 3px;
+  }
+  #top-jumbo .left-side .info-container .email-area button {
+    background-color: #1061a8;
+    color: #ffffff;
+    padding: 15px 10px;
+    font-size: 1rem;
+    width: 25%;
+    float: left;
+  }
+  #top-jumbo .right-side {
+    width: 60%;
+  }
+  #top-jumbo .right-side img {
+    width: 450px; 
+    position: relative;
+    margin-top: 50px;
+  }
+  #design-by .design-container .info-section .bg-container img {
+    opacity: 0.2;
+    bottom: 50px;
+    top: -28px;
+    z-index: -1;
+    left: -215px;
+  }
+  #design-by .design-container .info-section h5 {
+    margin-bottom: 25px;
+    z-index: 2;
+  }
+  #design-by .design-container .info-section {
+    width: 50%;
+    float: left;
+}
+  #design-by .design-container .info-section h3 {
+    color: #ffffff;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    z-index: 2;
+  }
+  #design-by .design-container .info-section .info-list li {
+    line-height: 1.6;
+  }
+  #design-by .design-container .info-section .info-list {
+    margin-bottom: 0;
+    z-index: 2;
+    position: relative;
+  }
+  .white-btn {
+    padding: 15px 35px;
+    border-radius: 59px;
+    top: 20px;
+  }
+  #design-by .design-container .icons-section {
+    width: 50%;
+  }
+  .refresh-circle {
+    left: 41%;
+    top: 41%;
+  }
+  #design-by .icons-section .icon-box {
+    width: 50%;
+    height: 249px;
+  }
 }
 /* MOBILE DEVICES */
 @media only screen and (max-width: 767px) {
+  #top-jumbo {
+    padding: 0 0 300px;
+  }
+  #top-jumbo .top-wrapper {
+    width: 100%;
+    margin: 0;
+  }
   #top-jumbo .left-side {
     width: 100%;
+    margin-bottom: -65px; 
   } 
+  #top-jumbo .left-side .large-letters {
+    font-size: 220px;
+  }
+  #top-jumbo .left-side .info-container h1 {
+    font-size: 40px;
+  }
+  #top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+  #top-jumbo .left-side .info-container .email-area {
+    width: 290px;
+  }
+  #top-jumbo .left-side .info-container .email-area .far {
+    float: left;
+    margin-top: 9px;
+    position: relative;
+    margin-left: 0;
+    text-align: center;
+  }
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    float: left;
+    width: 60%;
+    float: left;
+    position: relative;
+    margin-top: 3px;
+  }
+  #top-jumbo .left-side .info-container .email-area button {
+    background-color: #1061a8;
+    color: #ffffff;
+    padding: 15px 10px;
+    font-size: 1rem;
+    width: 25%;
+    float: left;
+  }
+  #top-jumbo .right-side {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  #top-jumbo .right-side img {
+    width: 100%;
+    margin-top: 0px;
+  }
+  #design-by .design-container .info-section {
+    background: #1061a8;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  #design-by .design-container .info-section h5 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #design-by .design-container .info-section h3 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #design-by .design-container .info-section .bg-container {
+    z-index: 1;
+    position: relative;
+    padding: 35px;
+    overflow: hidden;
+  }
+  #design-by .design-container .info-section .info-list {
+    margin-bottom: 0.5rem;
+    z-index: 2;
+    position: relative;
+  }
+  #design-by .design-container .icons-section {
+    background: #ffffff;
+    width: 100%;
+  }
+  #design-by .design-container .info-section .info-list li {
+    line-height: 1.7;
+  }
+  #design-by .design-container .icons-section .refresh-circle{
+    display: none;
+  }
+  #get-connected {
+    padding-bottom: 100px;
+    margin-top: -200px;
+  }
+  #get-connected .connected-wrapper {
+    margin: 0 auto;
+  }
+  #get-connected .left-side {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #get-connected .left-side img {
+    width: 100%;
+    display: block;
+  }
+  #get-connected .right-side {
+    width: 100%;
+    display: block;
+  }
+  #get-connected .info-box {
+    float: right;
+    width: 100%;
+    text-align: center;
+    padding: 75px 0;
+    margin-top: 60px;
+    max-width: none;
+  }
+  #get-connected .connected-wrapper {
+    width: 100%;
+  }
+  #blueprint .left-side {
+    width: 100%;
+  }
+  #blueprint .left-side img {
+    display: none;
+  }
+  #blueprint .right-side {
+    width: 100%;
+    display: block;
+    margin-left: 0px; 
+  }
+  #blueprint .right-side h1{
+    display: block;
+  }
+  #blueprint .right-side img{
+  
+  }
+  #blueprint .right-side .info-box .col-1 {
+    width: 14%;
+
+  }
+  #blueprint .right-side .info-box .col-2 {
+    width: 60%;
+  }
 }
 
