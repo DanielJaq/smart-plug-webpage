@@ -1128,6 +1128,10 @@ footer .social-media .icons a{
     background: #ffffff;
     width: 100%;
   }
+  #design-by .icons-section .icon-box {
+    width: 50%;
+    height: 203px;
+  }
   #design-by .design-container .info-section .info-list li {
     line-height: 1.7;
   }
@@ -1145,12 +1149,14 @@ footer .social-media .icons a{
     display: block;
     width: 100%;
     text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: -10px;
   }
   #get-connected .left-side img {
-    width: 100%;
     display: block;
     min-width: 350px;
-    margin-left: -69px;
+    margin-left: -15px;
   }
   #get-connected .right-side {
     width: 100%;
@@ -1169,6 +1175,7 @@ footer .social-media .icons a{
   }
   #blueprint .left-side {
     width: 100%;
+    
   }
   #blueprint .left-side img {
     display: none;
@@ -1242,9 +1249,10 @@ footer .social-media .icons a{
     margin-bottom: 60px;
   }
   #our-smartplugs .header h1 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-align: center;
-    max-width: none;
+    width: 100%;
+    float: none;
   }
   #our-smartplugs .body {
     padding: 10px 0;
