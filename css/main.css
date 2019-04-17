@@ -801,6 +801,8 @@ footer .social-media .icons a{
     filter: grayscale(100%);
     opacity: 0.3;
   }
+  #top-jumbo .left-side .info-container .email-area button {
+    float: right;
 }
 /* TABLET DEVICES */
 @media only screen and (max-width: 1023px) {
@@ -840,7 +842,7 @@ footer .social-media .icons a{
     padding: 15px 10px;
     font-size: 1rem;
     width: 25%;
-    float: left;
+    float: right;
   }
   #top-jumbo .right-side {
     width: 60%;
@@ -1053,6 +1055,10 @@ footer .social-media .icons a{
     width: 100%;
     margin: 0;
   }
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
   #top-jumbo .left-side {
     width: 100%;
     margin-bottom: -65px; 
@@ -1086,7 +1092,7 @@ footer .social-media .icons a{
     padding: 15px 10px;
     font-size: 1rem;
     width: 25%;
-    float: left;
+    float: right;
   }
   #top-jumbo .right-side {
     width: 100%;
